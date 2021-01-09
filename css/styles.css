@@ -42,6 +42,9 @@ nav ul li {
 	text-decoration:none; 
 
 }
+.header-p {
+	margin-top: -250px;
+}
 .header-p p {
 	text-align: center;
 }
@@ -49,3 +52,16 @@ nav ul li {
 	margin-left: 40%;
 }
 
+#image1,#image2,#image3 {
+	width:80px;
+	height:80px;
+	float:right;
+	border-radius: 50%;
+}
+#image4,#image5,#image6 {
+	width:80px;
+	height:80px;
+	float:right;
+	border-radius: 50%;
+
+}
