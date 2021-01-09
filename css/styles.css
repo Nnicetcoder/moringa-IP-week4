@@ -175,6 +175,14 @@ nav ul li {
 	padding: 5px;
 	margin: 5px;
 }
-       /*SOCIAL MEDIA ICONS*/
+       /*SOCIAL MEDIA ICONS SECTION*/
+#social-media {
+	margin-left:250px;
+}
+#social-media img { 
+ 	height:60px;
+ 	width: 90px;
+ 	padding:2px 20px;
+}
 
 
