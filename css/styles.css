@@ -1,0 +1,51 @@
+
+*{
+ box-sizing:border-box;
+ margin: 0; 
+}
+.header {
+	height: 500px;
+}
+.navbar-header p {
+	margin-left: -50px;
+	margin-top:-40px;
+}
+.menu {
+	margin-top:20px;
+	margin-left: 100%;
+	 
+}
+.hide{
+	margin-top:20px;
+	margin-left: 95%;
+	display:none; 
+}
+nav {
+	position: fixed;
+	top:0;
+	right:0;
+	height: 100vh;
+	background: ;
+	color: white;
+}
+nav ul {
+	margin-left: 95%;
+	margin-bottom: 100%;
+	display: none;
+	text-align: center;
+	right:0;
+	margin-right: 20px; 
+	display:;
+}
+nav ul li {
+	padding:1rem;
+	text-decoration:none; 
+
+}
+.header-p p {
+	text-align: center;
+}
+.header-p button {
+	margin-left: 40%;
+}
+
