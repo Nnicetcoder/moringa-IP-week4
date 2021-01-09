@@ -77,3 +77,16 @@ nav ul li {
 	height:320px;
 
 }
+#recipe-section {
+	margin-top: 10px;
+	padding: 10px;
+}
+#recipe-section h4 {
+	text-align: center;
+	padding: 20px 20px;
+}
+#recipe-section input {
+	margin-top: 60px;
+}
+
+
