@@ -3,6 +3,7 @@
  box-sizing:border-box;
  margin: 0; 
 }
+           /*Header section*/
 .header {
 	height: 500px;
 }
@@ -51,6 +52,7 @@ nav ul li {
 .header-p button {
 	margin-left: 40%;
 }
+          /* Pizza available section */
 
 #image1,#image2,#image3 {
 	width:80px;
@@ -63,5 +65,15 @@ nav ul li {
 	height:80px;
 	float:right;
 	border-radius: 50%;
+
+}
+        /* Recipe video section */
+#video-header {
+	text-align: center;
+}
+#video {
+	margin: 40px 100px;
+	width:750px;
+	height:320px;
 
 }
