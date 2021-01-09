@@ -140,9 +140,41 @@ nav ul li {
 }
             /*CONTACT US SECTION*/
 
+#contact-header {
+	margin-left:300px;
+	padding: 20px 20px;
+}
 #contact-us {
 
 }
 #contact-us h2 {
-	margin-left:80px;
+	margin-top:40px;
+	
 }
+#message-us{
+	
+	
+
+}
+#name {
+	width:300px;
+	border:none;
+	border-bottom: 2px solid #000;
+	padding: 5px;
+	margin:8px; 
+}
+#email {
+	width:300px;
+	border:none;
+	border-bottom:2px solid #000; 
+	padding: 5px;
+	margin:8px ;
+}
+#textarea {
+	width:250px;
+	padding: 5px;
+	margin: 5px;
+}
+       /*SOCIAL MEDIA ICONS*/
+
+
