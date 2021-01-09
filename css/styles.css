@@ -8,8 +8,18 @@
 	height: 500px;
 }
 .navbar-header p {
-	margin-left: -50px;
+	margin-left: -45px;
 	margin-top:-40px;
+	font-weight: bold;
+
+}
+.header-p button {
+	border-radius: 4px;
+	font-weight: bold;
+}
+.header-p p {
+	font-weight: bold;
+	font-size: 36px;
 }
 .menu {
 	margin-top:20px;
@@ -52,6 +62,16 @@ nav ul li {
 .header-p button {
 	margin-left: 40%;
 }
+	
+			/* ABOUT US SECTION*/
+#about-us {
+	margin: 30px 10px;
+}			
+
+.food {
+	height:80px;
+	width:80px;
+}			
           /* Pizza available section */
 
 #image1,#image2,#image3 {
@@ -70,6 +90,8 @@ nav ul li {
         /* Recipe video section */
 #video-header {
 	text-align: center;
+	margin-left: 40%;
+	font-weight: bold;
 }
 #video {
 	margin: 40px 100px;
@@ -83,10 +105,44 @@ nav ul li {
 }
 #recipe-section h4 {
 	text-align: center;
-	padding: 20px 20px;
+	padding: 20px 10px;
+	margin-left: 100px;
 }
 #recipe-section input {
-	margin-top: 60px;
+	margin-top: 70px;
+
 }
+#comment-text {
+	margin-left: -230px;
+	width:300px;
+	border:none;
+	border-bottom: 2px solid black;
+	padding:10px;
 
 
+}
+#comment {
+	margin-top:70px;
+	padding:0px 10px;
+	height:45px;
+	background: #273c75;
+	color:#fff;
+	border-radius:4px ;   
+}
+#cancel {
+	padding:0px 10px;
+	margin-top:70px;
+	height:45px;
+	font-weight: bold;
+	background: transparent;
+	color:#333;
+	border:none;
+}
+            /*CONTACT US SECTION*/
+
+#contact-us {
+
+}
+#contact-us h2 {
+	margin-left:80px;
+}
