@@ -3,23 +3,35 @@
  box-sizing:border-box;
  margin: 0; 
 }
-           /*Header section*/
+.row {
+	margin:10px 30px;
+}
+#navbar-main {
+	background: url(../images/background.jpg);
+}
+            /*Navbar section*/
+
+#nav {
+	margin-bottom: 0px;
+}
+.pizzaforlife {
+	font-weight: bold;
+	font-family: potta one;
+}            
+           /*Main section*/
 
 
-.header-p {
-	position: ;
-	margin-top: -250px;
+
+
+#main {
+	margin-top: -10px;
+	height: 300px;
 }
-.header-p p {
-	text-align: center;
-}
-.header-p button {
-	margin-left: ;
-}
-	
+
 			/* ABOUT US SECTION*/
 #about-us {
 	margin: 30px 10px;
+	align-items: center;
 }			
 
 .food {
