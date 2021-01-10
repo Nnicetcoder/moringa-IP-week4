@@ -9,4 +9,7 @@ $("#button-order").addEventListener("click",function(){
 	toppings=document.getElementById("toppings").value;
 	number=document.getElementById("number").value;
 
+	total=parseInt(crust)+parseInt(size)+parseInt(toppings) ;
+	alert(total);
+
 });
