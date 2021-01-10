@@ -10,6 +10,7 @@ $("#button-order").addEventListener("click",function(){
 	number=document.getElementById("number").value;
 
 	total=parseInt(crust)+parseInt(size)+parseInt(toppings) ;
+	total*=parseInt(number);
 	alert(total);
 
 });
