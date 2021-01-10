@@ -14,29 +14,44 @@
 			</div>
 			<div class="row" id="select-crust">
 				<label>Select the crust of your choice</label>
-				<select >
-					<option>Crispy</option>
-					<option>Stuffed</option>
-					<option>Gluten-free</option>
+				<select id="crust">
+					<option>Crispy(1000)</option>
+					<option>Stuffed(2000)</option>
+					<option>Gluten-free(3000)</option>
 
 				</select>
 			</div>
 			<div class="row" id="select-size">
 				<label>Select the size of your choice</label>
-				<select>
-					<option>Small</option>
-					<option>Medium</option>
-					<option>Large</option>
+				<select id="size">
+					<option>Small(3000)</option>
+					<option>Medium(5000)</option>
+					<option>Large(7000)</option>
 				</select>
 			</div>
 			<div class="row" id="select-toppings">
 				<label>Select the toppings of your choice</label>
-				<select>
-					<option>Supreme</option>
-					<option>Hawaiian(Ham & pineapple)</option>
-					<option>BBQ Meatlovers</option>
-					<option>Garlic butter prawns and chilli</option>
+				<select id="toppings">
+					<option>Supreme(2000)</option>
+					<option>Hawaiian(Ham & pineapple)(2000)</option>
+					<option>BBQ Meatlovers(2000)</option>
+					<option>Garlic butter prawns and chilli(2000)</option>
 				</select>
+			</div>
+			<div class="row" id="select-number">
+				<label>How many pizza do you want?</label>
+				<input id="number" type="number" name="number" min="1">
+			</div>
+			<div class="row" id="select-delivery">
+				<div class="col-md-6">
+					<p>Do you want your pizza to be delivered?</p>
+
+					<input type="radio" name="radio" value="yes">
+					<label for="yes">YES</label>
+					<input type="radio" name="radio" value="no">
+					<label for="no">NO</label>
+				</div>
+				
 			</div>
 			<div class="row">
 				<button class="btn btn-success" id="button-order">ORDER</button>

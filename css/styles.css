@@ -18,14 +18,14 @@ html{
 	margin-bottom: 0px;
 }
 .pizzaforlife {
-	font-weight: bold;
+	font-weight: 900;
 	font-family: cursive;
 	color:orange;
 } 
-.navbar-nav ml-auto li a {
-	font-weight: bold;
+#main-text h1 p {
 	color:white;
 }
+
 .nav-item active {
 	color: orange;
 	font-weight: bold;
@@ -193,7 +193,9 @@ html{
        /*order page styling section*/
 #order-section {
 	background: url(../images/order-backimg.jpg);
-	height: 600px;
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 900px;
 } 
 .row h2 {
 	text-align: center;
@@ -205,47 +207,77 @@ html{
 #select-crust select {
 	width:250px;
 	height:40px;
-	margin:20px 10px;
+	margin:15px 10px;
 	border-radius: 4px;
-	margin-top:70px ;
+	margin-top:60px ;
 	margin-left:-410px ; 
 }
 #select-crust label {
 	font-weight: bold;
 	font-family: cursive;
-	margin:20px;
+	margin:15px;
 	font-size: 30px;
 }
 #select-size select {
 	width:250px;
 	height:40px;
-	margin: 20px 10px;
+	margin: 10px 10px;
 	border:2px #000;
 	border-radius: 4px;
-	margin-top:90px ;
+	margin-top:80px ;
 	margin-left:-400px;
 }
 #select-size label {
 	font-weight: bold;
 	font-family: cursive;
-	margin:20px;
+	margin:10px;
 	font-size: 30px;
+
 }
 
 #select-toppings select {
 	width: 250px;
 	height: 40px;
-	margin:20px 10px;
+	margin:10px 10px;
 	border-radius: 4px;
-	margin-top:100px ;
+	margin-top:90px ;
 	margin-left:-460px;
+
 }
 #select-toppings label {
 	font-weight: bold;
 	font-family: cursive;
-	margin:20px;
+	margin:10px;
 	font-size: 30px;
 }
+#select-number input {
+width: 250px;
+height:40px;
+margin:10px 10px;
+border-radius:4px;
+margin-top: 100px;
+margin-left:-400px;
+}
+#select-number label {
+	font-weight: bold;
+	font-family: cursive;
+	margin:10px;
+	font-size: 30px;
+}
+#select-delivery p{
+	font-weight: bold;
+	font-family: cursive;
+	margin:10px;
+	font-size: 30px;
+}
+#select-delivery input,label {
+	margin-top: 20px;
+	float: left;
+}
+#select-delivery label {
+	padding:5px;
+}
+
 #button-order {
 	margin-left: 100px;
 }
