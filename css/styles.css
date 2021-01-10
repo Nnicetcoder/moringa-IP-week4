@@ -14,7 +14,7 @@
 	text-align: center;
 }
 .header-p button {
-	margin-left: 40%;
+	margin-left: ;
 }
 	
 			/* ABOUT US SECTION*/
@@ -99,15 +99,16 @@
 	padding: 20px 20px;
 }
 #contact-us {
- margin-left: 250px;
+	padding:10px 10px;
+ 	
 }
 #contact-us h2 {
 	margin-top:40px;
 	
 }
 #message-us{
+	padding:10px 10px;
 	
-	margin-left:250px ;
 
 }
 #name {
@@ -147,8 +148,3 @@
 }
       /*media queries for responsiveness*/
 
-@media screen and (min-width: 768px){
-	#message-us,#contact-us {
-		margin-left: 0px;
-	}
-}
