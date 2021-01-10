@@ -3,6 +3,9 @@
  box-sizing:border-box;
  margin: 0; 
 }
+html{
+     scroll-behavior: smooth;
+ }
 .row {
 	margin:10px 30px;
 }
@@ -16,8 +19,35 @@
 }
 .pizzaforlife {
 	font-weight: bold;
-	font-family: potta one;
-}            
+	font-family: cursive;
+	color:orange;
+} 
+.navbar-nav ml-auto li a {
+	font-weight: bold;
+	color:white;
+}
+.nav-item active {
+	color: orange;
+	font-weight: bold;
+}
+.nav-link {
+	font-weight: white;
+	color:white;
+	font-weight:800 ;
+	font-size: 18px;
+}
+.nav-link:hover {
+	color:orange;
+}
+#home-link {
+	color:orange;
+	font-weight: 800;
+	font-size: 20px;
+}
+
+
+
+
            /*Main section*/
 
 
@@ -160,3 +190,62 @@
 }
       /*media queries for responsiveness*/
 
+       /*order page styling section*/
+#order-section {
+	background: url(../images/order-backimg.jpg);
+	height: 600px;
+} 
+.row h2 {
+	text-align: center;
+	line-height: 1.8rem;
+	font-weight: bold;
+	color: orange;
+	font-family:cursive;
+}      
+#select-crust select {
+	width:250px;
+	height:40px;
+	margin:20px 10px;
+	border-radius: 4px;
+	margin-top:70px ;
+	margin-left:-410px ; 
+}
+#select-crust label {
+	font-weight: bold;
+	font-family: cursive;
+	margin:20px;
+	font-size: 30px;
+}
+#select-size select {
+	width:250px;
+	height:40px;
+	margin: 20px 10px;
+	border:2px #000;
+	border-radius: 4px;
+	margin-top:90px ;
+	margin-left:-400px;
+}
+#select-size label {
+	font-weight: bold;
+	font-family: cursive;
+	margin:20px;
+	font-size: 30px;
+}
+
+#select-toppings select {
+	width: 250px;
+	height: 40px;
+	margin:20px 10px;
+	border-radius: 4px;
+	margin-top:100px ;
+	margin-left:-460px;
+}
+#select-toppings label {
+	font-weight: bold;
+	font-family: cursive;
+	margin:20px;
+	font-size: 30px;
+}
+#button-order {
+	margin-left: 100px;
+}

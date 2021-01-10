@@ -4,6 +4,8 @@
 	<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
 	<link rel="stylesheet" type="text/css" href="css/styles.css">
 	<link href='https://fonts.googleapis.com/css?family=Bree Serif' rel='stylesheet'>
+	<script type="text/javascript" href="js/jquery-3.5.1.min.js"></script>
+	<script type="text/javascript" href="js/scripts.js"></script>
 
 	<title>Your pizza at your door</title>
 </head>
@@ -15,22 +17,22 @@
         			<a href="#" class="navbar-brand"><span class="pizzaforlife">PIZZA</span>for<span class="pizzaforlife">LIFE</span></a>
         			<ul class="navbar-nav ml-auto">
           				<li class="nav-item active">
-            				<a class="nav-link" href="#">Home</a>
+            				<a class="nav-link" id="home-link" href="index.html">Home</a>
           				</li>
          				<li class="nav-item">
-            				<a class="nav-link" href="#">About</a>
+            				<a class="nav-link" href="#about-us">About</a>
           				</li>
           				<li class="nav-item">
-            				<a class="nav-link" href="#">Team</a>
+            				<a class="nav-link" href="#pizza-available">menu</a>
           				</li>
           				<li class="nav-item">
-            				<a class="nav-link" href="#">Recipes</a>
+            				<a class="nav-link" href="#recipe-section">Recipes</a>
           				</li>
           				<li class="nav-item">
-            				<a class="nav-link" href="#">Order</a>
+            				<a class="nav-link" href="order.html">Order</a>
           				</li>
           				<li class="nav-item">
-            				<a class="nav-link" href="#">Contact</a>
+            				<a class="nav-link" href="#contact-us">Contact</a>
           				</li>
         			</ul>
       			</nav>
@@ -82,7 +84,7 @@
 		   <!--PIZZA AVAILABLE SECTION -->	
 
 		
-	<div class="row">
+	<div class="row" id="pizza-available">
 		<div class="col-md-6">
 			<div class="row" id="pizza-row1">
 				<div class="col-md-6">
@@ -170,9 +172,9 @@
 
 				</div>
 				<div class="col-md-6" id="message-us">
-					<input id="name" type="text" name="name" placeholder="Name">
-					<input id="email" type="text" name="email" placeholder="E-mail">
-					<textarea id="textarea" cols="0" rows="5" placeholder="message..."></textarea>
+					<input id="name" type="text" name="name" placeholder="Name" required>
+					<input id="email" type="text" name="email" placeholder="E-mail" required>
+					<textarea id="textarea" cols="0" rows="5" placeholder="message..." required></textarea>
 					<input id="submit_btn" class="btn btn-primary" type="submit" name="submit" value="SUBMIT">
 				
 				</div>
