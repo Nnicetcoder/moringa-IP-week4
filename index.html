@@ -7,27 +7,41 @@
 	<title>Your pizza at your door</title>
 </head>
 <body>
-	<div class="container">
-		<div class="header">
-			<button class="menu">MENU</button>
-			<button class="hide">HIDE</button>
-			<div class="navbar-header">
-				<p>PIZZAforLIFE</p>
-			</div>
-			<nav class="navbar navbar-default">
-				<ul>        
-	 		    	<li><a href="">Home</a></li>
-					<li><a href="">About</a></li>
-					<li><a href="">Contact</a></li>
-					<li><a href="">Services</a></li>
-					<li><a href="">Order</a></li>
-				</ul>
-			</nav>
-			<div class="header-p">
-				<p>WE HAVE THE BEST PIZZA</p>
-				<button>ORDER YOURS</button>
-			</div>
+	 <section id="nav">
+    	<div class="container-fluid">
+      		<nav class="navbar navbar-expand-lg bg-transparent">
+        		<a href="#" class="navbar-brand"><span>PIZZA</span>for<span>LIFE</span></a>
+        		<ul class="navbar-nav ml-auto">
+          			<li class="nav-item active">
+            			<a class="nav-link" href="#">Home</a>
+          			</li>
+         			<li class="nav-item">
+            			<a class="nav-link" href="#">About</a>
+          			</li>
+          			<li class="nav-item">
+            			<a class="nav-link" href="#">Team</a>
+          			</li>
+          			<li class="nav-item">
+            			<a class="nav-link" href="#">Recipes</a>
+          			</li>
+          			<li class="nav-item">
+            			<a class="nav-link" href="#">Order</a>
+          			</li>
+          			<li class="nav-item">
+            			<a class="nav-link" href="#">Contact</a>
+          			</li>
+        		</ul>
+      </nav>
+    </div>
+  </section>
+  <div class="row">
+  		<div class="header-p">
+			<p>WE HAVE THE BEST PIZZA</p>
+			<button class="btn btn-success">ORDER YOURS</button>
 		</div>
+  </div>
+			
+		
 		<div class="row" id="about-us">
 			<div class="col-md-6">
 				<h2><em>About us</em></h2>
@@ -133,7 +147,7 @@
 			</div>
 			<div class="row">
 				<div class="col-md-6" id="contact-us">
-					<h4><em>visit us</em></h4>
+					<h4><em>Visit us</em></h4>
 					<p>
 					You can reach out to us on our workplace for more information<br> or send an email to the provided e-mail address or call us on the contact<br> number provided in case you have a problem or need information<br> we are available in all week days except on sunday . 
 					</p>
@@ -147,7 +161,7 @@
 				<div class="col-md-6" id="message-us">
 					<input id="name" type="text" name="name" placeholder="Name">
 					<input id="email" type="text" name="email" placeholder="E-mail">
-					<textarea id="textarea" cols="0" rows="7" placeholder="message..."></textarea>
+					<textarea id="textarea" cols="0" rows="5" placeholder="message..."></textarea>
 					<input id="submit_btn" class="btn btn-primary" type="submit" name="submit" value="SUBMIT">
 				
 				</div>

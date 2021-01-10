@@ -4,56 +4,10 @@
  margin: 0; 
 }
            /*Header section*/
-.header {
-	height: 500px;
-}
-.navbar-header p {
-	margin-left: -45px;
-	margin-top:-40px;
-	font-weight: bold;
 
-}
-.header-p button {
-	border-radius: 4px;
-	font-weight: bold;
-}
-.header-p p {
-	font-weight: bold;
-	font-size: 36px;
-}
-.menu {
-	margin-top:20px;
-	margin-left: 100%;
-	 
-}
-.hide{
-	margin-top:20px;
-	margin-left: 95%;
-	display:none; 
-}
-nav {
-	position: fixed;
-	top:0;
-	right:0;
-	height: 100vh;
-	background: ;
-	color: white;
-}
-nav ul {
-	margin-left: 95%;
-	margin-bottom: 100%;
-	display: none;
-	text-align: center;
-	right:0;
-	margin-right: 20px; 
-	display:;
-}
-nav ul li {
-	padding:1rem;
-	text-decoration:none; 
 
-}
 .header-p {
+	position: ;
 	margin-top: -250px;
 }
 .header-p p {
@@ -145,7 +99,7 @@ nav ul li {
 	padding: 20px 20px;
 }
 #contact-us {
-
+ margin-left: 250px;
 }
 #contact-us h2 {
 	margin-top:40px;
@@ -153,7 +107,7 @@ nav ul li {
 }
 #message-us{
 	
-	
+	margin-left:250px ;
 
 }
 #name {
@@ -175,7 +129,9 @@ nav ul li {
 	padding: 5px;
 	margin: 5px;
 }
+
        /*SOCIAL MEDIA ICONS SECTION*/
+
 #social-media {
 	margin-left:250px;
 }
@@ -184,5 +140,15 @@ nav ul li {
  	width: 90px;
  	padding:2px 20px;
 }
+#social-media img:hover {
+	transform: translate(0,-15px);
+	transition: 0.6s;
+	
+}
+      /*media queries for responsiveness*/
 
-
+@media screen and (min-width: 768px){
+	#message-us,#contact-us {
+		margin-left: 0px;
+	}
+}
