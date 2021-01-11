@@ -1,16 +1,24 @@
-$("#submit_btn").addEventListener("click",function(){
+$("#submit_btn").click(function(){
 	alert("Thank you for reaching to us")
 });
-$("#button-order").addEventListener("click",function(){
-	var number;toppings;size;crust;total;
+var price,toppings_price,crust_price,size_price,total;
 
-	crust=document.getElementById("crust").value;
-	size=document.getElementById("size").value;
-	toppings=document.getElementById("toppings").value;
-	number=document.getElementById("number").value;
+function findPizza(crust,size,toppings,total){
+	this.crust=crust;
+	this.size=size;
+	this.toppings=toppings;
+	this.total=total;
 
-	total=parseInt(crust)+parseInt(size)+parseInt(toppings) ;
-	total*=parseInt(number);
-	alert(total);
+$(document).ready(function(event){
+	var pSize=$("#size option:selected").val();
+	var pToppings=$("#toppings option:selected").val();
+	var pCrust=$("#crust option:selected").val();
+
+	crust_price=parseInt(pCrust);
+	size_price= parseInt(pSize);
+	toppings_price=parseInt(pToppings);
+
+	total= crust_price + size_price+ toppings_price;
+
 
 });
