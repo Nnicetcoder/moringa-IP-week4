@@ -33,7 +33,7 @@ function getTotal(){
 	total= crust_price + size_price+ toppings_price;
 	total*=number;
 
-	var delivery=$(".radio").val();
+	var delivery=$("input[name=radio]:checked").val();
 
 	switch(delivery){
 		case "yes":
@@ -46,7 +46,9 @@ function getTotal(){
 			break;
 		case "no":
 			price=total ;
+			alert("Your pizza will not be delivered")
 			alert("The total price is: "+ price +" RWF");
+			alert("Thank you for choosing us!!")
 			break;
 		default:
 		alert("you need to choose whether or not it will be delivered" );
