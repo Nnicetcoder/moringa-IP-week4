@@ -53,7 +53,26 @@ function getTotal(){
 		default:
 		alert("you need to choose whether or not it will be delivered" );
 	}
-
+   
 	
 
 };
+function checkOut(){
+	var pSize=$("#size").val();
+	var pToppings=$("#toppings").val();
+	var pCrust=$("#crust").val();
+	
+
+	crust_price=parseInt(pCrust);
+	size_price= parseInt(pSize);
+	toppings_price=parseInt(pToppings);
+	
+   	var msg="the size costs "+ size_price+" RWF\n";
+   	    
+   		msg+= "the crust costs "+crust_price+" RWF\n";
+   		
+   		msg+=  "the toppings costs "+toppings_price+" RWF\n";
+   		
+   		msg+=  "the delivery costs "+2000+"RWF"+"(in case it will be made)";
+   		alert(msg);
+   };
