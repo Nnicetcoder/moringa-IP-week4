@@ -75,14 +75,19 @@ html{
 	height:80px;
 	float:right;
 	border-radius: 50%;
+	
+
 }
 #image4,#image5,#image6 {
 	width:80px;
 	height:80px;
 	float:right;
 	border-radius: 50%;
+	box-shadow: 5px 5px 10px rgba(0,0,0,0.2);
 
 }
+
+
         /* Recipe video section */
 #video-header {
 	text-align: center;
@@ -93,6 +98,8 @@ html{
 	margin: 40px 100px;
 	width:750px;
 	height:320px;
+	box-shadow: 8px 8px 12px rgba(0,0,0,0.4);
+
 
 }
 #recipe-section {
