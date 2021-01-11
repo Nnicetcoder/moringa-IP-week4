@@ -86,6 +86,17 @@ html{
 	box-shadow: 5px 5px 10px rgba(0,0,0,0.2);
 
 }
+#pizza-row1,#pizza-row2,#pizza-row3
+ p {
+	font-family: cursive;
+	font-weight: bold;
+}
+
+#pizza-row4,#pizza-row5,#pizza-row6
+ p {
+	font-family: cursive;
+	font-weight: bold;
+}
 
 
         /* Recipe video section */
@@ -208,7 +219,7 @@ html{
 	text-align: center;
 	line-height: 1.8rem;
 	font-weight: bold;
-	color: orange;
+	color: grey;
 	font-family:cursive;
 }      
 #select-crust select {
